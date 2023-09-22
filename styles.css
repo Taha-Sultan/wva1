@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(0,155,255);
+    background: radial-gradient(circle, rgba(0,155,255,1) 0%, rgba(70,252,250,1) 100%);
+    color: white;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.nav-menu-icon{
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    font-family: 'Croissant One', cursive;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background: transparent;
+}
+
+.car-div{
+    margin: auto;
+    width: 98%;
+}
+
+.landing-image{
+    z-index: 99;
+    margin-top: 180px;
+    transition: all 2s ease-in-out;
+}
+
+.landing-text{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    transition: all 2s ease-in-out;
+}
+
+.landing-page{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.move-buttons{
+    font-size: 50px;
+}
+
+.car-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.return-btn button{
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #0FAFFE;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: all 0.4s linear;
+}
+
+.return-btn button:hover{
+    background-color: #44F9FA;
+    scale: 1.1;
+}
+
+.return-btn{
+    margin: auto;
+    width: max-content;
+    opacity: 0;
+}
+
+
